@@ -19,11 +19,6 @@ class CreateProductsTable extends Migration
             $table->string('name');
             $table->integer('price');
             $table->timestamps();
-     
-            $table->foreign('user_id')
-                    ->references('id')
-                    ->on('users')
-                    ->onDelete('cascade');
             });
     }
 
