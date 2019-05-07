@@ -1,0 +1,26 @@
+Register API (POST)
+http://127.0.0.1:8000/api/register?name=arif&email=admin@admin.com&password=123456
+
+Login API (POST)
+http://127.0.0.1:8000/api/login?email=admin@admin.com&password=123456
+
+User Details (GET)
+http://127.0.0.1:8000/api/user?Accept=application/json&Authorization=Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImM4N2JjM2Q0MzIzZGIxYTFlZTFhNTcxMzY4ZTA2MTk0N2E5YzNiMWZhM2NmZTg0YmNkODBlM2FhMTY3ZjAzOGEzOGE5ODQ2MTUwY2U0NjVmIn0.eyJhdWQiOiIxIiwianRpIjoiYzg3YmMzZDQzMjNkYjFhMWVlMWE1NzEzNjhlMDYxOTQ3YTljM2IxZmEzY2ZlODRiY2Q4MGUzYWExNjdmMDM4YTM4YTk4NDYxNTBjZTQ2NWYiLCJpYXQiOjE1NTcxODY0NjQsIm5iZiI6MTU1NzE4NjQ2NCwiZXhwIjoxNTg4ODA4ODY0LCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.QGp4BPQbxDNwxQ0hyRkA2nHXCSiRrkhyKOPFufb7Ut5eN3F3HrMrqdP2vpvo6tQzUiNR-NMliDDeM1GHJMZAoUUFEZALE33U49v6bDurmhhb1UTM7zr9kiNVC_uF6ZqAzMYHPkuDgvz15q6EFWVAJ2s4yL1Ck7gsrqKoASV_xtALl-2_Tgt89n5Wfi8wXPqKERBcsSJ6nhgMOI714-jS5eyyH4I9hrl72dQfpJWqiuYlznxLbTAlPaNLAnAHanOWNHS_AJ9_6g1SWEZX2x5MGbpS1OBgcuIPmo6EbWUtTCSdIp1PKkWlhVR1gCVv8AFhhlinOfxL4px06p5uk3Xz58yHciYDEFtLjWcNHB_P97UWNHBAOPrn-If-U-U86FjCCwL-FC9Van5AXVQAqc3Ai6aLBwhYt4DjY83WsBBkP-LK7Jm4ybK-QZd82SshZgCQKxINaCU4AcI_sMx1HzfhnBe13ewKFfczfzO8z_hxWslO1So5B_k418FNCI6py9y9oDHKEvAibOMTAUb8Z0sCcdVy3F4Fhfj8KG1WgtK_U3RMcj3paRqW7rpB-iZhfMx173beaLbx9jBHh1y3UwcyB-Oqs-ZDA46k5uGGgXen3AL6KKPy2gwcPjuj3nNwGFZt11rl6nuI2R8cp9RhGFJmaIWQx3I8kyLI-xGZh9Y-jnE
+
+Product Store API (POST)
+
+http://127.0.0.1:8000/api/products?name=Calculator&price=40
+
+
+Product Index API (GET)
+http://127.0.0.1:8000/api/products
+
+
+Product Show API (GET)
+http://127.0.0.1:8000/api/products/1
+
+Product Update (PUT)
+http://127.0.0.1:8000/api/products/1?price=70
+
+Product Delete (Delete)
+http://127.0.0.1:8000/api/products/1
